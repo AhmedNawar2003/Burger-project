@@ -1,0 +1,258 @@
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url(main.css);
+@import url(Responsive/findPage.css);
+/* ******************************* */
+:root {
+  --white: #ffffff;
+  --bg-color: #1c2123;
+  --yellow-color: #dc9457;
+  --pink: #ef3d5b;
+  --green-color: #57b957;
+}
+::selection {
+  background-color: #000000;
+}
+body {
+  font-family: Regular-rubik;
+  color: var(--extra-white);
+  font-size: 16px;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+img,
+iframe {
+  width: 100%;
+  height: 100%;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.mb {
+  margin-bottom: 100px;
+}
+.p-70 {
+  padding: 70px 0;
+}
+.p-top {
+  padding-top: 70px;
+}
+.p-r-70 {
+  padding-right: 70px;
+}
+.p-r-90 {
+  padding-right: 90px;
+}
+/* ********************************************* */
+.header {
+  .navbar {
+    background-color: var(--bg-color);
+    width: 100%;
+  }
+  opacity: 1;
+  background-image: none;
+}
+/* ********************************************** */
+/* start london */
+.london {
+  background-color: var(--bg-color);
+  .card {
+    border-radius: 0;
+  }
+}
+.london .card-left {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.london h2 {
+  font-family: Bold-rubik;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+  color: var(--white);
+}
+.london .first-div {
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 50px;
+  position: relative;
+  padding: 30px 0;
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--yellow-color);
+  }
+  &::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--yellow-color);
+  }
+}
+.london .first-p {
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+.london .second-p {
+  color: var(--yellow-color);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin-bottom: 50px;
+}
+.london a {
+  font-family: Bold-rubik;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--yellow-color);
+  color: var(--white);
+  border-radius: 5px;
+  padding: 15px 30px;
+  transition: all 300ms;
+  &:hover{
+    background-color: var(--green-color);
+    color: var(--white);
+  }
+}
+/* End london */
+/* ******************************************************* */
+/* start new-york */
+.new-york {
+  background-color: var(--yellow-color);
+  .card {
+    border-radius: 0;
+  }
+}
+.new-york .card-right {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new-york h2 {
+  font-family: Bold-rubik;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+  color: var(--bg-color);
+}
+.new-york .first-div {
+  color: var(--bg-color);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 50px;
+  position: relative;
+  padding: 30px 0;
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--bg-color);
+  }
+  &::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--bg-color);
+  }
+}
+.new-york .first-p {
+  color: var(--bg-color);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+.new-york .second-p {
+  color: var(--bg-color);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin-bottom: 50px;
+}
+.new-york a {
+  font-family: Bold-rubik;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--bg-color);
+  color: var(--white);
+  border-radius: 5px;
+  padding: 15px 30px;
+  transition: all 300ms;
+  &:hover{
+    background-color: var(--white);
+    color: var(--bg-color);
+  }
+}
+/* End new-york */

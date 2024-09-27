@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+    .cheese-Burger h1 {
+      font-size: 30px !important;
+    }
+    .cheese-Burger .card-img{
+      display: flex;
+      justify-content: center;
+    }
+    .cheese-Burger img{
+      width: 450px;
+    }
+    .results .card-imgs img {
+      width: 200px !important;
+      height: 200px !important;
+  }
+  .results .card-imgs h2 {
+    font-size: 15px !important;
+}
+  }
+/* ********************************************** */
+@media (max-width: 767px) {
+  .cheese-Burger h1 {
+    font-size: 25px !important;
+  }
+  .cheese-Burger img{
+    width: 350px;
+  }
+  .results .card-imgs .image{
+    display: flex;
+    justify-content: center;
+}
+.results .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.results .inner-card a {
+  margin-bottom: 20px;
+}
+}
+/* ***************************************** */
+@media (max-width: 450px) {
+  .cheese-Burger img{
+    width: 280px;
+  }
+  .cheese-Burger .form-check .form-check-label {
+    font-size: 14px !important;
+  }
+  .cheese-Burger .price,
+  .cheese-Burger .price-total {
+    font-size: 16px !important;
+  }
+.cheese-Burger .form-check .form-check-label {
+font-size: 14px !important;
+}
+.cheese-Burger .first-p,
+.describtion-and-review #collapseExample1 .card-body,
+.describtion-and-review #collapseExample2 .second-p,
+.describtion-and-review #collapseExample2 .first-p,
+.describtion-and-review #collapseExample2 .third-p  {
+font-size: 15px !important;
+}
+.describtion-and-review #collapseExample2 .name-label,
+.describtion-and-review #collapseExample2 .email-label,
+.describtion-and-review #collapseExample2 .form-control,
+.describtion-and-review #collapseExample2 .submit,
+.describtion-and-review #collapseExample2 .rating,
+.describtion-and-review #collapseExample2 .review,
+.describtion-and-review #collapseExample2 .stars i,
+.cheese-Burger .before-radio,
+.cheese-Burger .before-checkbox ,
+.cheese-Burger .form-label ,
+.cheese-Burger .second-p,
+.cheese-Burger .add-to-cart{
+font-size: 15px !important;
+}
+}
+/* ***************************************** */
+@media (max-width: 400px) {
+  .cheese-Burger img{
+    width: 200px;
+  }
+    .cheese-Burger h1 {
+        font-size: 25px !important;
+      }
+  .cheese-Burger .form-check .form-check-label {
+    font-size: 12px !important;
+  }
+  .cheese-Burger .first-p,
+  .describtion-and-review #collapseExample1 .card-body,
+  .describtion-and-review #collapseExample2 .second-p,
+  .describtion-and-review #collapseExample2 .first-p,
+  .describtion-and-review #collapseExample2 .third-p  {
+    font-size: 14px !important;
+  }
+  .describtion-and-review #collapseExample2 .name-label,
+  .describtion-and-review #collapseExample2 .email-label,
+  .describtion-and-review #collapseExample2 .form-control,
+  .describtion-and-review #collapseExample2 .submit,
+  .describtion-and-review #collapseExample2 .rating,
+  .describtion-and-review #collapseExample2 .review,
+  .describtion-and-review #collapseExample2 .stars i,
+  .cheese-Burger .before-radio,
+  .cheese-Burger .before-checkbox ,
+  .cheese-Burger .form-label ,
+  .cheese-Burger .second-p,
+  .cheese-Burger .add-to-cart{
+    font-size: 14px !important;
+  }
+}
+/* ***************************************** */
+@media (max-width: 330px) {
+  .cheese-Burger img{
+    width: 180px;
+  }
+  .cheese-Burger h1 {
+    font-size: 20px !important;
+  }
+  .cheese-Burger .form-check .form-check-label {
+    font-size: 9px !important;
+  }
+  .cheese-Burger .first-p,
+  .describtion-and-review #collapseExample1 .card-body,
+  .describtion-and-review #collapseExample2 .second-p,
+  .describtion-and-review #collapseExample2 .first-p,
+  .describtion-and-review #collapseExample2 .third-p  {
+    font-size: 12px !important;
+  }
+  .describtion-and-review #collapseExample2 .name-label,
+  .describtion-and-review #collapseExample2 .email-label,
+  .describtion-and-review #collapseExample2 .form-control,
+  .describtion-and-review #collapseExample2 .submit,
+  .describtion-and-review #collapseExample2 .rating,
+  .describtion-and-review #collapseExample2 .review,
+  .describtion-and-review #collapseExample2 .stars i,
+  .cheese-Burger .before-radio,
+  .cheese-Burger .before-checkbox ,
+  .cheese-Burger .form-label ,
+  .cheese-Burger .second-p,
+  .cheese-Burger .add-to-cart{
+    font-size: 12px !important;
+  }
+}

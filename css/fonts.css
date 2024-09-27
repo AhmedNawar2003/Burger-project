@@ -1,0 +1,87 @@
+@font-face {
+    font-family: light-roboto;
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: Regular-roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Medium-roboto;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Black-roboto;
+    src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: Bold-roboto;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+/* *************************************************** */
+@font-face {
+    font-family: Black-rubik;
+    src: url("../fonts/Rubik/Rubik-Black.ttf");
+}
+@font-face {
+    font-family: light-rubik;
+    src: url("../fonts/Rubik/Rubik-Light.ttf");
+}
+
+@font-face {
+    font-family: Regular-rubik;
+    src: url("../fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: Medium-rubik;
+    src: url("../fonts/Rubik/Rubik-Medium.ttf");
+}
+
+@font-face {
+    font-family: Semi-Bold-rubik;
+    src: url("../fonts/Rubik/Rubik-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Bold-rubik;
+    src: url("../fonts/Rubik/Rubik-Bold.ttf");
+}
+@font-face {
+    font-family: Extra-Bold-rubik;
+    src: url("../fonts/Rubik/Rubik-ExtraBold.ttf");
+}
+/* ************************************************** */
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+/* ************************************************* */
+@font-face {
+    font-family: light-lato;
+    src: url("../fonts/Lato/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: Regular-lato;
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: thin-lato;
+    src: url("../fonts/Lato/Lato-Thin.ttf");
+}
+
+@font-face {
+    font-family: Black-lato;
+    src: url("../fonts/Lato/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: Bold-lato;
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+}

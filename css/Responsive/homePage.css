@@ -1,0 +1,550 @@
+hr {
+  display: none !important;
+}
+* {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+@media (max-width: 1300px) {
+  .Burgers-details p {
+    padding: 0 !important;
+  }
+  .navbar-brand {
+    margin-inline-start: 60px;
+  }
+}
+/* ******************************************** */
+@media (max-width: 1024px) {
+  .header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 13px !important;
+  }
+  .header .h2-above-burger {
+    font-size: 70px !important;
+  }
+  .our-Burgers .second-h2 {
+    font-size: 30px !important;
+  }
+  .our-Burgers .first-h2,
+  .third-h2,
+  .subscribe-now h2 {
+    font-size: 16px !important;
+  }
+  .Burger-Imgs .second-img,
+  .Burger-Imgs .first-img {
+    width: 300px !important;
+  }
+  .Burger-Imgs .third-img {
+    width: 240px !important;
+  }
+  .Burger-Imgs .card {
+    margin-inline-start: 0 !important;
+  }
+  .Burgers-details p {
+    font-size: 13px !important;
+  }
+  .have-way h2 {
+    font-size: 18px !important;
+    bottom: 52% !important;
+  }
+  .menus-and-delivery h2 {
+    font-size: 40px !important;
+  }
+  .Tomato-Original-Sauce .second-h2,
+  .Tomato-Original-Sauce .sauce,
+  .fresh-salad .second-h2,
+  .ice-cream h2 {
+    font-size: 60px !important;
+  }
+  .Tomato-Original-Sauce .first-h2,
+  .fresh-salad .first-h2 {
+    font-size: 28px !important;
+  }
+  .ice-cream h2 {
+    span {
+      font-size: 35px !important;
+    }
+  }
+  .subscribe-now p {
+    font-size: 18px !important;
+  }
+  .subscribe-now h2 {
+    margin-inline-start: 85px !important;
+  }
+}
+/* ******************************************** */
+@media (max-width: 992px) {
+  .card {
+    border: none !important;
+  }
+  .header .nav2 {
+    margin-inline-start: 0 !important;
+  }
+  .header .navbar-brand {
+    width: 230px !important;
+  }
+  .header .h2-above-burger {
+    span {
+      margin-inline-start: 16px !important;
+    }
+  }
+  .header .burger-img {
+    width: 360px !important;
+  }
+  .header .tomato-img {
+    width: 180px !important;
+    bottom: 179px !important;
+  }
+  .header .onion-img {
+    width: 180px !important;
+  }
+  .header .sauce-img {
+    width: 200px !important;
+  }
+  .header .h2-above-burger {
+    font-size: 50px !important;
+  }
+  .our-Burgers .second-h2 {
+    font-size: 25px !important;
+  }
+  .our-Burgers .first-h2,
+  .third-h2 {
+    font-size: 15px !important;
+  }
+  .our-Burgers .first-h2 {
+    margin-bottom: 30px;
+  }
+  .Burger-Imgs .second-img,
+  .Burger-Imgs .first-img {
+    width: 250px !important;
+  }
+  .Burger-Imgs .first-img,
+  .Burgers-details .first-card {
+    margin-bottom: 30px;
+  }
+  .Burger-Imgs .card {
+    margin-inline-start: 45px !important;
+  }
+  .Burgers-details p {
+    font-size: 13px !important;
+  }
+  .menus-and-delivery h2 {
+    font-size: 30px !important;
+  }
+  .Tomato-Original-Sauce .second-h2,
+  .Tomato-Original-Sauce .sauce,
+  .fresh-salad .second-h2,
+  .ice-cream h2 {
+    font-size: 45px !important;
+  }
+  .Tomato-Original-Sauce .first-h2,
+  .fresh-salad .first-h2 {
+    font-size: 24px !important;
+  }
+  .ice-cream h2 {
+    span {
+      font-size: 28px !important;
+    }
+  }
+  .Tomato-Original-Sauce .card-right,
+  .fresh-salad .card-left {
+    padding: 50px 0 50px 0 !important;
+  }
+  .subscribe-now .card-p {
+    align-items: flex-start !important;
+    margin-bottom: 30px;
+    p {
+      flex-direction: row !important;
+    }
+  }
+  .subscribe-now h2 {
+    font-size: 18px !important;
+  }
+  .subscribe-now h2 {
+    bottom: 6px !important;
+    margin-inline-start: 44px !important;
+  }
+}
+/* ******************************************* */
+@media (max-width: 768px) {
+  .header .navbar-brand {
+    width: 160px !important;
+  }
+  .header .h2-above-burger {
+    font-size: 35px !important;
+  }
+  .header .onion-img {
+    width: 100px !important;
+  }
+  .header .burger-img {
+    width: 250px !important;
+  }
+  .header .tomato-img {
+    width: 100px !important;
+    bottom: 150px !important;
+    left: 100px !important;
+  }
+  .header .sauce-img {
+    width: 130px !important;
+    bottom: 25% !important;
+  }
+  .header .beef-burger {
+    font-size: 20px !important;
+  }
+  .header .sauce {
+    font-size: 20px !important;
+  }
+  .header .original {
+    font-size: 30px !important;
+  }
+  .header .Smoked-brisket {
+    font-size: 12px !important;
+    margin-bottom: 30px;
+  }
+  .Burgers-details h2 {
+    font-size: 40px !important;
+  }
+  .Burger-Imgs .third-img {
+    width: 220px !important;
+}
+}
+/* ******************************************** */
+@media (max-width: 767px) {
+  .header .navbar-brand {
+    width: 160px !important;
+  }
+  .header .h2-above-burger {
+    font-size: 35px !important;
+  }
+  .header .onion-img {
+    width: 100px !important;
+  }
+  .header .burger-img {
+    width: 250px !important;
+  }
+  .header .tomato-img {
+    width: 100px !important;
+    bottom: 213px !important;
+  }
+  .header .sauce-img {
+    width: 130px !important;
+    bottom: 35% !important;
+  }
+  .header .beef-burger {
+    font-size: 20px !important;
+  }
+  .header .sauce {
+    font-size: 20px !important;
+  }
+  .header .original {
+    font-size: 30px !important;
+  }
+  .header .Smoked-brisket {
+    font-size: 12px !important;
+    margin-bottom: 30px;
+  }
+  .header .card-sauce {
+    align-items: center !important;
+  }
+  .header .card-beef {
+    margin-top: 30px;
+    align-items: center;
+  }
+  .our-Burgers .second-h2 {
+    font-size: 20px !important;
+    margin-bottom: 30px;
+  }
+  .Burger-Imgs .second-img {
+    margin-bottom: 30px;
+  }
+  .Burger-Imgs .card {
+    margin-inline-start: 130px !important;
+  }
+  .Burgers-details h2 {
+    font-size: 40px !important;
+  }
+  .Burgers-details .middle-card{
+    margin-bottom: 30px;
+  }
+  .have-way h2 {
+    font-size: 15px !important;
+  }
+  .menus-and-delivery .our-menu,
+  .menus-and-delivery .our-delivery,
+  .Tomato-Original-Sauce,
+  .fresh-salad {
+    a {
+      font-size: 15px !important;
+    }
+  }
+  .Tomato-Original-Sauce .second-h2,
+  .Tomato-Original-Sauce .sauce,
+  .fresh-salad .second-h2,
+  .ice-cream h2 {
+    font-size: 35px !important;
+  }
+  .menus-and-delivery h2 {
+    font-size: 25px !important;
+  }
+  .ice-cream .strawberry-img {
+    width: 130px !important;
+  }
+  .ice-cream h2 {
+    margin-top: 60px !important;
+  }
+  .subscribe-now h2 {
+    font-size: 13px !important;
+    margin-inline-start: 22px !important;
+  }
+  .subscribe-now p {
+    font-size: 15px !important;
+  }
+  .subscribe-now .card-p {
+    align-items: center !important;
+  }
+  .last-section p {
+    font-size: 15px !important;
+  }
+  .last-section .first-div,
+  .second-div {
+    display: flex;
+    justify-content: center;
+  }
+  .last-section .second-div {
+    margin-bottom: 30px;
+  }
+  .last-section ul li i {
+    font-size: 20px !important;
+  }
+  .footer .card-copy {
+    align-items: center;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+/* ******************************************** */
+@media (max-width: 600px) {
+  .navbar-toggler {
+    right: 0 !important;
+
+    i {
+      font-size: 15px !important;
+    }
+  }
+  .header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 10px !important;
+  }
+  .header .Smoked-brisket {
+    font-size: 10px !important;
+  }
+  .header .navbar-brand {
+    width: 140px !important;
+  }
+  .header .h2-above-burger {
+    font-size: 28px !important;
+    span {
+      margin-inline-start: 7px !important;
+    }
+  }
+  .Burger-Imgs .card {
+    margin-inline-start: 120px !important;
+  }
+  .Burgers-details h2 {
+    font-size: 30px !important;
+  }
+  .have-way h2 {
+    font-size: 12px !important;
+  }
+  .menus-and-delivery h2 {
+    font-size: 20px !important;
+  }
+  .Burger-Imgs .second-img,
+  .Burger-Imgs .first-img {
+    width: 160px !important;
+    margin-bottom: 30px !important;
+  }
+  .Burger-Imgs .third-img {
+    width: 150px !important;
+  }
+  .menus-and-delivery .our-menu,
+  .menus-and-delivery .our-delivery,
+  .Tomato-Original-Sauce,
+  .fresh-salad {
+    a {
+      font-size: 12px !important;
+    }
+  }
+  .Tomato-Original-Sauce .first-h2,
+  .fresh-salad .first-h2 {
+    font-size: 16px !important;
+  }
+  .Tomato-Original-Sauce .first-h2,
+  .fresh-salad .first-h2 {
+    &::before {
+      width: 100px !important;
+      left: -115px !important;
+      top: 10px !important;
+    }
+  }
+  .Tomato-Original-Sauce .first-h2,
+  .fresh-salad .first-h2 {
+    &::after {
+      width: 100px !important;
+      right: -115px !important;
+      top: 10px !important;
+    }
+  }
+  .Tomato-Original-Sauce .second-h2,
+  .Tomato-Original-Sauce .sauce,
+  .fresh-salad .second-h2,
+  .ice-cream h2 {
+    font-size: 25px !important;
+  }
+  .Tomato-Original-Sauce .first-p,
+  .fresh-salad .first-p {
+    font-size: 15px !important;
+  }
+  .ice-cream h2 {
+    span {
+      font-size: 18px !important;
+      bottom: 4px !important;
+    }
+  }
+  .subscribe-now h2 {
+    font-size: 11px !important;
+    margin-inline-start: 12px !important;
+  }
+  .subscribe-now p {
+    font-size: 12px !important;
+  }
+  .subscribe-now .submit,
+  .subscribe-now .email {
+    font-size: 12px !important;
+  }
+  .last-section .logo {
+    width: 200px !important;
+  }
+  .last-section p {
+    font-size: 11px !important;
+  }
+}
+/* ******************************************** */
+@media (max-width: 400px) {
+    .header .navbar-icon i{
+        font-size: 20px !important;
+    }
+  .header .navbar-brand {
+    width: 100px !important;
+  }
+  .navbar-toggler {
+    i {
+      font-size: 9px !important;
+      margin-top: 2px;
+    }
+  }
+  .header .h2-above-burger {
+    font-size: 20px !important;
+  }
+  .header .burger-img {
+    width: 150px !important;
+  }
+  .header .tomato-img {
+    width: 70px !important;
+    left: 20px !important;
+    bottom: 130px !important;
+  }
+  .header .onion-img {
+    width: 70px !important;
+    top: 100px !important;
+  }
+  .header .sauce-img {
+    width: 70px !important;
+    bottom: 40% !important;
+  }
+  .header .beef-burger {
+    font-size: 15px !important;
+  }
+  .header .Smoked-brisket {
+    font-size: 7px !important;
+  }
+  .header .sauce {
+    font-size: 15px !important;
+  }
+  .header .original {
+    font-size: 20px !important;
+  }
+  .footer .side-icon a i {
+    font-size: 10px !important;
+  }
+  .our-Burgers .second-h2 {
+    font-size: 18px !important;
+  }
+  .Burger-Imgs .card {
+    margin-inline-start: 50px !important;
+  }
+  .Burgers-details h2 {
+    font-size: 20px !important;
+  }
+  .Burgers-details p {
+    font-size: 10px !important;
+  }
+  .have-way h2 {
+    font-size: 8px !important;
+    bottom: 55% !important;
+  }
+  .Tomato-Original-Sauce .second-h2,
+  .Tomato-Original-Sauce .sauce,
+  .fresh-salad .second-h2,
+  .ice-cream h2 {
+    font-size: 20px !important;
+  }
+  .ice-cream h2 {
+    & span {
+      font-size: 14px !important;
+      bottom: 2px !important;
+      &::after {
+        height: 2px !important;
+      }
+    }
+  }
+  .subscribe-now h2 {
+    font-size: 8px !important;
+    bottom: 2px !important;
+  }
+  .subscribe-now p {
+    font-size: 10px !important;
+  }
+  .subscribe-now .submit,
+  .subscribe-now .email {
+    font-size: 10px !important;
+  }
+  .last-section p {
+    font-size: 8px !important;
+  }
+  .last-section .first-div,
+  .second-div {
+    font-size: 12px !important;
+  }
+  .last-section ul li i {
+    font-size: 15px !important;
+}
+.footer p {
+    font-size: 12px !important;
+}
+.footer .original {
+    font-size: 25px !important;
+}
+}
+/* ******************************************** */
+@media (max-width: 380px) {
+    .Burger-Imgs .card {
+        margin-inline-start: 100px !important;
+    }
+}
+/* ******************************************** */
+@media (max-width: 350px) {
+    .Burger-Imgs .card {
+        margin-inline-start: 70px !important;
+    }
+}

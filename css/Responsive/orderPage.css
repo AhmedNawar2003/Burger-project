@@ -1,0 +1,143 @@
+@media (max-width: 1024px){
+    .results .align-items-end {
+        align-items: flex-start !important;
+    }
+}
+/* ************************************************ */
+@media (max-width: 992px){
+    .images img {
+        width: 65px !important;
+    }
+    .images a {
+        font-size: 14px !important;
+    }
+    .results .inner-card a {
+        font-size: 14px !important;
+    }
+    .results select {
+        font-size: 14px !important;
+    }
+    .results .card-imgs h2{
+        font-size: 18px !important;
+    }
+    .results .card-imgs .price {
+        font-size: 15px !important;
+    }
+}
+/* *********************************************** */
+@media (max-width: 768px){
+    .results select {
+        width: 80% !important;
+    }
+    .results .card-imgs .image img{
+        width: 200px;
+    }
+    .images .img-one a {
+        position: relative;
+        top: 10px !important;
+    }
+    .images .img-two a {
+        top: 5px;
+    }
+    .images .img-three a {
+        position: relative;
+        top: 14px !important;
+    }
+    .images .img-four a {
+        top: 6px !important;
+    }
+    .images .img-fife a {
+        position: relative;
+        left: 11px !important;
+        top: 17px !important;
+    }
+    .images .img-six a {
+        position: relative;
+        top: 5px;
+    }
+    .images .img-seven a {
+        position: relative;
+        top: 4px;
+    }
+}
+/* ************************************************* */
+@media (max-width: 767px){
+    .images img {
+        width: 60px !important;
+    }
+    .images a {
+        font-size: 12px !important;
+    }
+    
+    .results .inner-card a {
+        font-size: 14px !important;
+        margin-bottom: 30px;
+    }
+    .results .align-items-end {
+        align-items: flex-start !important;
+    }
+    .results select {
+        font-size: 10px !important;
+        margin-top: 15px;
+    }
+    .results .first-p {
+        font-size: 10px !important;
+    }
+    .results .card-imgs h2{
+        font-size: 18px !important;
+    }
+    .results .card-imgs .price {
+        font-size: 15px !important;
+    }
+    .images .img-six,
+    .images .img-seven{
+        align-items: center;
+    }
+    .images .img-six,
+    .images .img-seven,
+    .img-fife{
+        margin-top: 30px;
+    }
+    .results .card-imgs .image{
+       display: flex;
+       justify-content: center;
+    }
+    .results .card-imgs .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+}
+/* ************************************************** */
+@media (max-width: 450px){
+    .images .img-three a {
+        top: 12px !important;
+    }
+    .images .img-four a {
+        top: 2px;
+    }
+    .images .img-one a {
+        position: relative;
+        top: 2px;
+    }
+}
+/* *************************************************** */
+@media (max-width: 330px){
+    .images img {
+        width: 50px !important;
+    }
+    .images a {
+        font-size: 10px !important;
+    }
+    .results select {
+        font-size: 8px !important;
+        font-weight: 300 !important;
+    }
+    .results .first-p {
+        font-size: 8px !important;
+    }
+    .results .form-select{
+        background-size: 6px 12px !important;
+    }
+    
+}

@@ -1,0 +1,830 @@
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url(Responsive/homePage.css);
+/* ******************************* */
+:root {
+  --white: #ffffff;
+  --bg-color: #1c2123;
+  --yellow-color: #dc9457;
+  --pink: #ef3d5b;
+  --green-color: #57b957;
+}
+::selection {
+  background-color: #000000;
+}
+body {
+  font-family: Regular-rubik;
+  color: var(--extra-white);
+  font-size: 16px;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+img,
+iframe {
+  width: 100%;
+  height: 100%;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.mb {
+  margin-bottom: 100px;
+}
+.p-70 {
+  padding: 70px 0;
+}
+.p-top {
+  padding-top: 70px;
+}
+.p-r-70 {
+  padding-right: 70px;
+}
+.p-r-90 {
+  padding-right: 90px;
+}
+/* ********************************************* */
+/* start header */
+.header {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #000000 -80%, #c8021a 85%);
+  opacity: 0.87;
+  transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.navbar-toggler{
+  position: relative;
+    right: 80px;
+    z-index: 2;
+&:focus{
+  border: none ;
+    outline: none;
+    box-shadow: none;
+}
+}
+.navbar-toggler-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i{
+    font-size: 20px;
+    color: var(--white);
+  }
+}
+.header .burger-card {
+  align-items: center;
+}
+.header .burger-img {
+  position: relative;
+  width: 450px;
+}
+.header .tomato-img {
+  position: absolute;
+  width: 225px;
+  bottom: 100px;
+  left: 50px;
+}
+.header .onion-img {
+  position: absolute;
+  width: 260px;
+  top: 150px;
+  right: 5px;
+}
+.header .sauce-img {
+  position: absolute;
+  width: 270px;
+  bottom: 10%;
+  left: 55%;
+}
+.header .h2-above-burger {
+  position: absolute;
+  font-family: Bold-rubik;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+  color: var(--white);
+  span {
+    margin-inline-start: 35px;
+  }
+}
+.header .navbar-expand-lg {
+  padding: 20px;
+}
+.header .navbar-expand-lg .navbar-nav {
+  gap: 15px;
+}
+.header .navbar-brand {
+  width: 300px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  font-family: Bold-rubik;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: var(--white);
+  transition: all 300ms;
+  position: relative;
+  z-index: 1;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    /* z-index: 1; */
+    opacity: 0.2;
+    height: 50%;
+    width: 0%;
+    transform-origin: right top;
+    transform: scale(0.1);
+    transition: color 0.1s, transform 0.2s ease-out;
+    background-color: var(--yellow-color);
+    z-index: -1;
+  }
+  &:hover {
+    color: var(--yellow-color);
+    &::after {
+      width: 100%;
+    }
+  }
+}
+.header .nav2 {
+  margin-inline-start: 80px;
+}
+.header .beef-burger {
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header .Smoked-brisket {
+  padding: 0.5em;
+  color: var(--white);
+  font-family: Regular-rubik;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.header .sauce {
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.header .original {
+  color: var(--white);
+  font-family: Pacifico;
+  font-size: 35px;
+  font-weight: 400;
+}
+.header .navbar-icon {
+    i{
+        font-size: 25px;
+        cursor: pointer;
+        transition: all 300ms;
+        &:hover{
+            color: var(--yellow-color);
+        }
+    }
+}
+/* End header */
+/* *************************************************** */
+/*start our-Burgers  */
+.our-Burgers {
+  background-color: var(--bg-color);
+  padding-top: 80px;
+}
+.our-Burgers h2{
+  position: relative;
+  padding: 30px;
+  &::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #666666;
+  }
+  &::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #666666;
+  }
+
+}
+.our-Burgers .second-h2::before,
+.our-Burgers .second-h2::after{
+  background-color: var(--yellow-color);
+} 
+.our-Burgers .first-h2,
+.third-h2 {
+  color: #666666;
+  font-family: Bold-rubik;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 300ms;
+  cursor: pointer;
+  &:hover{
+    color: var(--white);
+  }
+}
+.our-Burgers .second-h2 {
+  color: var(--yellow-color);
+  font-family: Bold-rubik;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  cursor: pointer;
+}
+/*End our-Burgers  */
+/* ******************************************************* */
+/* start Burger-Imgs */
+.Burger-Imgs {
+  padding-top: 80px;
+  background-color: var(--bg-color);
+}
+.Burger-Imgs .card {
+  align-items: center;
+  margin-inline-start: 30px;
+}
+.Burger-Imgs .first-img {
+  width: 350px;
+}
+.Burger-Imgs .second-img {
+  width: 370px;
+}
+.Burger-Imgs .third-img {
+  width: 290px;
+}
+/* End Burger-Imgs */
+/* ******************************************************* */
+/* start Burgers-details */
+.Burgers-details {
+  background-color: var(--bg-color);
+  padding-top: 80px;
+}
+.Burgers-details h2 {
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.Burgers-details p {
+  padding: 0.5em;
+  text-align: center;
+  color: #9b9b9b;
+  font-family: Regular-rubik;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 300ms;
+  cursor: pointer;
+  &:hover{
+    color: var(--white);
+  }
+}
+/* End Burgers-details */
+/* ********************************************************* */
+/* start have-way */
+.have-way {
+  background-color: var(--bg-color);
+  position: relative;
+  padding-top: 80px;
+}
+.have-way .card {
+  height: 100%;
+}
+.have-way h2 {
+  color: var(--yellow-color);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 80px;
+  position: relative;
+  bottom: 50%;
+}
+.have-way .before,
+.after {
+  position: absolute;
+  top: 38%;
+  width: 100%;
+  height: 2px;
+  background-color: var(--yellow-color);
+}
+/* End have-way */
+/* ********************************************* */
+/* start menus-and-delivery */
+.menus-and-delivery {
+  background-color: var(--bg-color);
+  padding: 60px 0 100px 0;
+  .card {
+    border-radius: 0;
+  }
+}
+.menus-and-delivery .our-menu {
+  background-color: var(--white);
+  height: 100%;
+  padding: 60px;
+  a {
+    font-family: Bold-rubik;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--yellow-color);
+    border-radius: 5px;
+    color: var(--white);
+    width: max-content;
+    padding: 15px 30px;
+    transition: all 300ms;
+    &:hover {
+      background-color: var(--bg-color);
+    }
+  }
+}
+.menus-and-delivery .our-delivery {
+  background-color: #e7e7e7;
+  height: 100%;
+  padding: 60px;
+  a {
+    font-family: Bold-rubik;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--bg-color);
+    color: var(--white);
+    border-radius: 5px;
+    width: max-content;
+    padding: 15px 30px;
+    transition: all 300ms;
+    &:hover {
+      background-color: var(--yellow-color);
+    }
+  }
+}
+.menus-and-delivery h2 {
+  color: var(--bg-color);
+  font-family: Bold-rubik;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  span {
+    width: fit-content;
+    position: relative;
+    &::after{
+      content: "";
+      position: absolute;
+      height: 3px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: var(--bg-color);
+    }
+  }
+}
+.menus-and-delivery p {
+  color: var(--bg-color);
+  font-size: 16px;
+  padding: 8px 0;
+  font-family: Regular-rubik;
+  margin-bottom: 30px;
+}
+/* End menus-and-delivery */
+/* ************************************************* */
+/* start Tomato-Original-Sauce */
+.Tomato-Original-Sauce .card {
+  border-radius: 0;
+}
+.Tomato-Original-Sauce .card-right {
+  background-color: var(--white);
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Tomato-Original-Sauce .first-h2 {
+  color: var(--bg-color);
+  font-family: Bold-rubik;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 30px;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    background-color: var(--bg-color);
+    left: -185px;
+    top: 18px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    background-color: var(--bg-color);
+    right: -185px;
+    top: 18px;
+  }
+}
+.Tomato-Original-Sauce .second-h2 {
+  color: var(--bg-color);
+  font-family: Bold-rubik;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Tomato-Original-Sauce .sauce {
+  color: var(--pink);
+  font-family: Pacifico;
+  font-size: 75px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.Tomato-Original-Sauce .first-p {
+  text-align: center;
+  color: var(--bg-color);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.Tomato-Original-Sauce .second-p {
+  text-align: center;
+  color: var(--bg-color);
+  font-family: Regular-rubik;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px;
+  margin-bottom: 50px;
+  width: 75%;
+}
+.Tomato-Original-Sauce a {
+  font-family: Bold-rubik;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--pink);
+  color: var(--white);
+  border-radius: 5px;
+  width: max-content;
+  padding: 15px 30px;
+  transition: all 300ms;
+  &:hover {
+    background-color: var(--green-color);
+    color: var(--white);
+  }
+}
+/* End Tomato-Original-Sauce */
+/* ************************************************* */
+/* start fresh-salad */
+.fresh-salad .card {
+  border-radius: 0;
+}
+.fresh-salad .card-left {
+  background-color: var(--bg-color);
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.fresh-salad .first-h2 {
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 30px;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    background-color: var(--white);
+    left: -185px;
+    top: 18px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    background-color: var(--white);
+    right: -185px;
+    top: 18px;
+  }
+}
+.fresh-salad .second-h2 {
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  .green-color {
+    color: var(--green-color);
+    margin-bottom: 2px;
+  }
+}
+.fresh-salad .first-p {
+  text-align: center;
+  color: var(--white);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fresh-salad .second-p {
+  text-align: center;
+  color: #cccccc;
+  font-family: Regular-rubik;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+.fresh-salad a {
+  font-family: Bold-rubik;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--green-color);
+  color: var(--white);
+  border-radius: 5px;
+  width: max-content;
+  padding: 15px 30px;
+  transition: all 300ms;
+  &:hover {
+    background-color: var(--pink);
+    color: var(--white);
+  }
+}
+/* End Tomato-Original-Sauce */
+/* ************************************************* */
+/* start ice-cream */
+.ice-cream {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #c50323 -80%, #ef3d5b 85%);
+  opacity: 0.87;
+  transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.ice-cream h2 {
+  margin-top: 140px;
+  font-family: Bold-rubik;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -1px;
+  span {
+    position: relative;
+    font-size: 45px;
+    bottom: 10px;
+    &::after{
+      content: "";
+      position: absolute;
+      height: 4px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: var(--white);
+    }
+  }
+}
+
+.ice-cream .ice-cream-img {
+  margin-top: 40px;
+  position: relative;
+}
+.ice-cream .strawberry-img {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  width: 580px;
+}
+/* End ice-cream */
+/* *************************************************** */
+/* start subscribe-now */
+.subscribe-now {
+  padding: 80px 0 80px 0;
+  background-color: var(--bg-color);
+}
+.subscribe-now h2 {
+  color: var(--yellow-color);
+  font-family: Bold-rubik;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 50px;
+  bottom: 10px;
+  margin-inline-start: 120px;
+}
+.subscribe-now .before,
+.after {
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: var(--yellow-color);
+}
+.subscribe-now p {
+  color: #ffffff;
+  font-family: Regular-rubik;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.subscribe-now .email {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-family: Regular-lato;
+  background-color: var(--white);
+  border: 1px solid #e1e1e1;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.subscribe-now .submit {
+  padding: 15px 28px;
+  font-size: 16px;
+  font-family: Bold-rubik;
+  background-color: var(--yellow-color);
+  color: var(--white);
+  border: 1px solid var(--yellow-color);
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-transform: capitalize;
+  transition: all 300ms;
+  &:hover {
+    background-color: var(--white);
+    color: var(--yellow-color);
+  }
+}
+/* End subscribe-now */
+/* ****************************************************** */
+/* start last-section */
+.last-section {
+  padding: 80px 0 80px 0;
+}
+.last-section .logo {
+  width: 300px;
+  margin-bottom: 50px;
+}
+.last-section p {
+  color: var(--bg-color);
+  font-size: 16px;
+  font-family: Regular-rubik;
+  margin-bottom: 30px;
+}
+.last-section .first-div {
+  margin-bottom: 10px;
+}
+.last-section .first-div,
+.second-div {
+  color: var(--bg-color);
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Bold-rubik;
+}
+.last-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  li {
+    i {
+      color: var(--bg-color);
+      font-size: 25px;
+      transition: all 300ms;
+      cursor: pointer;
+      &:hover {
+        color: var(--green-color);
+      }
+    }
+  }
+}
+/* End last-section */
+/* ***************************************************** */
+/* start footer */
+.footer {
+  padding-bottom: 60px;
+}
+.footer p {
+  color: var(--bg-color);
+  font-family: Regular-rubik;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.footer .original {
+  color: var(--bg-color);
+  font-family: Pacifico;
+  font-size: 30px;
+  font-weight: 400;
+}
+.footer .side-icon {
+  position: fixed;
+  top: 150px;
+  right: -2px;
+  cursor: pointer;
+  z-index: 9;
+  background-color: var(--white);
+  border-right: 0;
+  width: 40px;
+  padding: 10px 0 10px 0;
+  height: 140px;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  a {
+    i {
+      font-size: 15px;
+      line-height: 31px;
+      color: #000;
+      transition: all 300ms;
+      cursor: pointer;
+      &:hover{
+        color: var(--yellow-color);
+      }
+    }
+  }
+}

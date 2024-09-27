@@ -1,0 +1,363 @@
+@import url(fonts.css);
+@import url(static.css);
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url(main.css);
+@import url(orderOnline.css);
+@import url(Responsive/cheeseBurgerPage.css);
+/* ******************************* */
+:root {
+  --white: #ffffff;
+  --bg-color: #1c2123;
+  --yellow-color: #dc9457;
+  --pink: #ef3d5b;
+  --green-color: #57b957;
+  --color-new: #444444;
+}
+::selection {
+  background-color: #000000;
+}
+body {
+  font-family: Regular-rubik;
+  color: var(--extra-white);
+  font-size: 16px;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+img,
+iframe {
+  width: 100%;
+  height: 100%;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.mb {
+  margin-bottom: 100px;
+}
+.p-70 {
+  padding: 70px 0;
+}
+.p-top {
+  padding-top: 70px;
+}
+.p-r-70 {
+  padding-right: 70px;
+}
+.p-r-90 {
+  padding-right: 90px;
+}
+.form-check-input:focus {
+  box-shadow: none;
+  outline: none;
+}
+/* ********************************************* */
+/* start cheese-Burger */
+.cheese-Burger {
+  padding: 40px 0 40px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ededed;
+  }
+}
+.cheese-Burger h1 {
+  color: var(--bg-color);
+  font-size: 40px;
+  font-family: Bold-rubik;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.cheese-Burger .price {
+  color: var(--yellow-color);
+  font-size: 22px;
+  font-family: Regular-rubik;
+  padding-bottom: 10px;
+}
+.cheese-Burger .first-p {
+  color: var(--bg-color);
+  font-size: 16px;
+  font-family: Regular-rubik;
+  padding: 8px 0;
+}
+.cheese-Burger .before-radio,
+.cheese-Burger .before-checkbox {
+  color: var(--color-new);
+  font-size: 16px;
+  font-family: Bold-rubik;
+  margin-bottom: 10px;
+}
+.cheese-Burger .form-check .form-check-input {
+  border: 1px solid #ededed !important;
+  cursor: pointer;
+}
+.cheese-Burger .form-check .form-check-label {
+  color: var(--color-new);
+  font-size: 16px;
+  font-family: Regular-rubik;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cheese-Burger textarea {
+  padding: 13px 10px;
+}
+.cheese-Burger .div-textarea {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ededed;
+  }
+}
+.cheese-Burger textarea.form-control {
+  border: 1px solid #ededed !important;
+}
+.cheese-Burger .form-label {
+  color: var(--color-new);
+  font-size: 16px;
+  font-family: Bold-rubik;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.cheese-Burger .pb-1 {
+  padding-bottom: 10px;
+}
+.cheese-Burger .second-p {
+  color: var(--bg-color);
+  font-size: 16px;
+  font-family: Bold-rubik;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.cheese-Burger .price-total {
+  color: var(--yellow-color);
+  font-size: 22px;
+  font-family: Regular-rubik;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: flex-end;
+}
+.cheese-Burger .number {
+  background-color: var(--white);
+  color: var(--bg-color);
+  border: 1px solid #e1e1e1 !important;
+}
+.cheese-Burger .add-to-cart {
+  padding: 15px 30px;
+  background-color: var(--yellow-color);
+  color: var(--white);
+  margin-left: 5px;
+  font-size: 16px;
+  font-family: Bold-rubik;
+  transition: all 300ms;
+  border: 1px solid var(--yellow-color) !important;
+  &:hover {
+    background-color: var(--white);
+    color: #dc9457;
+  }
+}
+.cheese-Burger .last-p {
+  color: var(--bg-color);
+  font-size: 16px;
+  font-family: Regular-rubik;
+  text-transform: capitalize;
+}
+.cheese-Burger .last-p span {
+  transition: all 300ms;
+  cursor: pointer;
+  &:hover {
+    color: var(--yellow-color);
+  }
+}
+/* End cheese-Burger */
+/* ********************************************** */
+/* start describtion-and-review */
+.describtion-and-review {
+  padding: 40px 0 40px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ededed;
+  }
+}
+.describtion-and-review .head-p {
+  display: flex;
+  justify-content: center;
+}
+.describtion-and-review .head-p a {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--bg-color);
+    transition: all 300ms;
+    cursor: pointer;
+  }
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+.describtion-and-review .selections {
+  font-size: 16px;
+  font-family: Bold-rubik;
+  a {
+    &:focus {
+      color: var(--color-new);
+    }
+  }
+}
+.describtion-and-review #collapseExample1 .card-body {
+  font-size: 16px;
+  font-family: Regular-rubik;
+  color: var(--bg-color);
+  padding: 8px 0;
+  margin-top: 30px;
+}
+.describtion-and-review #collapseExample2 .first-p {
+  font-size: 16px;
+  font-family: Regular-rubik;
+  color: var(--bg-color);
+  margin-bottom: 15px;
+}
+.describtion-and-review #collapseExample2 .second-p {
+  font-size: 16px;
+  font-family: Bold-rubik;
+  color: var(--bg-color);
+  margin-bottom: 30px;
+}
+.describtion-and-review #collapseExample2 .third-p {
+  font-size: 16px;
+  font-family: Regular-rubik;
+  color: var(--bg-color);
+  margin-bottom: 20px;
+}
+.describtion-and-review #collapseExample2 .rating {
+  font-size: 16px;
+  font-family: Bold-rubik;
+  color: var(--color-new);
+  margin-bottom: 10px;
+}
+.describtion-and-review #collapseExample2 .stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+  i {
+    font-size: 16px;
+    color: var(--bg-color);
+  }
+}
+.describtion-and-review #collapseExample2 .review {
+  font-size: 16px;
+  font-family: Bold-rubik;
+  color: var(--color-new);
+  margin-bottom: 10px;
+}
+.describtion-and-review #collapseExample2 .textarea {
+  border: 1px solid #ededed !important;
+  margin-bottom: 30px;
+}
+.describtion-and-review #collapseExample2 .name-label,
+.describtion-and-review #collapseExample2 .email-label {
+  font-size: 16px;
+  font-family: Bold-rubik;
+  color: var(--color-new);
+  margin-bottom: 10px;
+}
+.describtion-and-review #collapseExample2 .form-control {
+  border: 1px solid #ededed !important;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+.describtion-and-review #collapseExample2 .submit {
+  background-color: var(--yellow-color);
+  color: var(--white);
+  width: fit-content;
+  padding: 15px;
+  text-transform: capitalize;
+  transition: all 300ms;
+  &:hover {
+    background-color: var(--white);
+    color: var(--yellow-color);
+    border: 1px solid var(--yellow-color) !important;
+  }
+}
+
+/* End describtion-and-review*/
+/***************************************************/
+/* start results */
+.results .card-head {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  h2 {
+    font-size: 17px;
+    font-family: Bold-rubik;
+    color: var(--bg-color);
+  }
+}
+.results .card-imgs h2{
+    font-size: 22px;
+    font-family: Medium-rubik;
+    padding-top: 11px;
+    margin: 5px 0 5px;
+    color: var(--bg-color);
+    text-transform: capitalize;
+}
+.results .card-imgs .price{
+    font-size: 18px;
+    font-family: Bold-rubik;
+    margin-bottom: 20px;
+    color: var(--yellow-color);
+}
+.results .card-imgs img{
+  width: 258px;
+  height: 258px;
+}
+/* End results */
+/* **************************************************** */
